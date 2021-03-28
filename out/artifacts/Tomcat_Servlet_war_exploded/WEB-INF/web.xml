@@ -8,8 +8,7 @@
     <servlet>
         <servlet-name>demo1</servlet-name>
         <servlet-class>itcast.web.servlet.SevrletDemo1</servlet-class>
-<!--        <load-on-startup>设置servlet被创建的时机，负数为被访问时创建，
-整数或0为tomcat启动时创建</load-on-startup>-->
+<!--        <load-on-startup></load-on-startup>-->
     </servlet>
     <servlet-mapping>
         <servlet-name>demo1</servlet-name>
