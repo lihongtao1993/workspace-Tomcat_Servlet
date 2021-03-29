@@ -3,12 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-    
+
     <!--配置servlet-->
     <servlet>
         <servlet-name>demo1</servlet-name>
         <servlet-class>itcast.web.servlet.SevrletDemo1</servlet-class>
-<!--        <load-on-startup></load-on-startup>-->
+<!--        <load-on-startup>设置servlet被创建的时机，负数为被访问时创建，
+整数或0为tomcat启动时创建</load-on-startup>-->
     </servlet>
     <servlet-mapping>
         <servlet-name>demo1</servlet-name>
