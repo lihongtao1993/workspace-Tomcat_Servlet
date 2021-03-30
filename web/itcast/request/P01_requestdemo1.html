@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>演示request获取请求行相关方法</title>
+    <style>
+        table,td,tr{
+            border: 1px solid;
+            border-collapse: collapse;
+            width: 450px;
+        }
+    </style>
+</head>
+<body>
+
+    <p>获取请求行信息的相关方法:</p>
+    <table>
+        <tr> <td>方法</td> <td>作用</td> </tr>
+        <tr> <td>String getMethod</td> <td>获取请求方式</td> </tr>
+        <tr> <td>String getContextPath</td> <td>获取虚拟路径</td> </tr>
+        <tr> <td>String getServletPath</td> <td>获取servlet路径</td> </tr>
+        <tr> <td>String getQueryString</td> <td>获取请求参数消息</td> </tr>
+        <tr> <td>String getRequestURI</td> <td>获取请求的URI</td> </tr>
+        <tr> <td>StringBuffer getRequestURL</td> <td>获取请求的URL</td> </tr>
+        <tr> <td>String getProtocol</td> <td>获取请求的协议和版本</td> </tr>
+        <tr> <td>String getRemoteAddr</td> <td>获取请求的ip地址</td> </tr>
+    </table>
+    <br><br><br><br>
+    <form action="/requestdemo1" method="get">
+        <input type="text" name="username"> <br>
+        <input type="text" name="password"> <br>
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>
