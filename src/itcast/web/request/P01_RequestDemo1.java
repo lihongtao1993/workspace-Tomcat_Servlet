@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-//
+//演示获取请求行相关信息的方法
 @WebServlet("/requestdemo1")
 public class P01_RequestDemo1 extends HttpServlet{
     @Override
