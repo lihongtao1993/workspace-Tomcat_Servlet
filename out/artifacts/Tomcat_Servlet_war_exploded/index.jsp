@@ -8,9 +8,16 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>JSP</title>
   </head>
   <body>
-  $END$
+  <%
+    System.out.println("hello jsp");
+    int i = 5;
+  %>
+  <%! int i =3; %>
+  <%=
+    i
+  %>
   </body>
 </html>

@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-<<<<<<< HEAD
     <file url="PROJECT" charset="UTF-8" />
-=======
-    <file url="file://$PROJECT_DIR$/src/itcast/web/request/P01_RequestDemo1.java" charset="UTF-16" />
-    <file url="file://$PROJECT_DIR$/src/itcast/web/request/P04_RequestDemo4.java" charset="UTF-8" />
->>>>>>> fd06a23e5e9da274a3f3379439834c2bf998194c
   </component>
 </project>
